@@ -1,0 +1,31 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #aaa;
+}
+
+.item {
+  margin: 8px;
+  border-radius: 16px;
+}
+.innerItem {
+  padding: 16px;
+  display: flex;
+}
+.innerItem div {
+  margin: 0 10px;
+}
+
+.long {
+  border: 1px #3bbb41 solid;
+}
+
+.short {
+  border: 1px rgb(206, 72, 72) solid;
+}
