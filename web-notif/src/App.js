@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import './App.css';  
 import axios from 'axios';
-
+import sound1 from './sounds/bite.mp3';
+import useSound from 'use-sound';
 
 function App() {
+  const [play] = useSound(sound1);
   const fileUrl = 'http://rkqjsbymdxcthdbiipoe.supabase.co/storage/v1/object/public/parcl/notify.json';
   const baseLink = 'https://app.parcl.co/parcls/';
   const links = [
